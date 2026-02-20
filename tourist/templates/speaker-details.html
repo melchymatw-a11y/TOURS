@@ -1,0 +1,151 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+{% load static %}
+
+
+{% block title %}
+SPEAKER DETAILS
+{% endblock %}
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1 class="heading-title">Speaker Details</h1>
+              <p class="mb-0">
+                Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo
+                odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum
+                debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat
+                ipsum dolorem.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Speaker Details</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <!-- Speaker Details 2 Section -->
+    <section id="speaker-details-2" class="speaker-details-2 section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="speaker-header text-center mb-5" data-aos="fade-up" data-aos-delay="200">
+              <div class="speaker-image mb-4">
+                <img src="assets/img/events/speaker-8.webp" alt="Speaker" class="img-fluid rounded-circle">
+                <div class="keynote-badge">Keynote Speaker</div>
+              </div>
+              <h1 class="speaker-name mb-2">Sarah Mitchell</h1>
+              <p class="speaker-title mb-3">Chief Technology Officer</p>
+              <div class="company-info">
+                <span class="company-name">TechVision Solutions</span>
+              </div>
+              <div class="social-links mt-4">
+                <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="social-link"><i class="bi bi-globe"></i></a>
+              </div>
+            </div>
+
+            <div class="speaker-quote mb-5" data-aos="fade-up" data-aos-delay="300">
+              <blockquote class="quote-content">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+              </blockquote>
+            </div>
+
+            <div class="speaker-bio mb-5" data-aos="fade-up" data-aos-delay="400">
+              <h3 class="bio-title mb-4">About Sarah</h3>
+              <p class="bio-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <p class="bio-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            </div>
+
+            <div class="speaker-sessions mb-5" data-aos="fade-up" data-aos-delay="500">
+              <h3 class="sessions-title mb-4">Sessions</h3>
+              <div class="sessions-list">
+
+                <div class="session-card" data-aos="fade-up" data-aos-delay="600">
+                  <div class="session-content">
+                    <div class="session-type">Keynote</div>
+                    <h4 class="session-title">The Future of Digital Transformation</h4>
+                    <p class="session-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="session-meta">
+                      <div class="session-info">
+                        <div class="session-detail">
+                          <i class="bi bi-calendar"></i>
+                          <span>March 15, 2024</span>
+                        </div>
+                        <div class="session-detail">
+                          <i class="bi bi-clock"></i>
+                          <span>10:00 AM - 11:00 AM</span>
+                        </div>
+                        <div class="session-detail">
+                          <i class="bi bi-geo-alt"></i>
+                          <span>Main Auditorium</span>
+                        </div>
+                      </div>
+                      <button class="session-btn">Add to Schedule</button>
+                    </div>
+                  </div>
+                </div><!-- End Session Card -->
+
+                <div class="session-card" data-aos="fade-up" data-aos-delay="700">
+                  <div class="session-content">
+                    <div class="session-type">Panel Discussion</div>
+                    <h4 class="session-title">Innovation in Modern Workplace</h4>
+                    <p class="session-description">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <div class="session-meta">
+                      <div class="session-info">
+                        <div class="session-detail">
+                          <i class="bi bi-calendar"></i>
+                          <span>March 16, 2024</span>
+                        </div>
+                        <div class="session-detail">
+                          <i class="bi bi-clock"></i>
+                          <span>2:00 PM - 3:30 PM</span>
+                        </div>
+                        <div class="session-detail">
+                          <i class="bi bi-geo-alt"></i>
+                          <span>Conference Room B</span>
+                        </div>
+                      </div>
+                      <button class="session-btn">Add to Schedule</button>
+                    </div>
+                  </div>
+                </div><!-- End Session Card -->
+
+              </div>
+            </div>
+
+            <div class="speaker-actions text-center" data-aos="fade-up" data-aos-delay="800">
+              <a href="#" class="btn btn-primary btn-action me-3">View Full Schedule</a>
+              <a href="#" class="btn btn-outline-primary btn-action">Back to Speakers</a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Speaker Details 2 Section -->
+
+  </main>
+
+
+
+{% endblock %}
